@@ -1,4 +1,12 @@
-# Laravel_Fortify-2FA
+# Laravel_Fortify-2FA Getting Started
+- Fork this repository to your repository
+- Clone from your repository by copying the url and using - git clone "copied git url"
+- Run composer install in your terminal
+- Duplicate .env.example file and rename the copied .env
+- Set DB_DATABASE, DB_USERNAME and DB_PASSWORD to the corresponding data in your database
+- Run php artisan key:generate to generate an App_key for you if you don't have any in your .env file 
+- Run php artisan serve to start the laravel server
+- Keep testing and learning.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
